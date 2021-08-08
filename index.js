@@ -6,6 +6,7 @@ const nana = new NanaAPI();
 const { API, } = require('nhentai-api');
 const api = new API();
 const pagination = require('discord.js-pagination');
+require('dotenv').config()
 
 client.on('ready', () => {
     client.user.setActivity("nhs code for search, nhr code for read, nhp code page for quick panel access and nhf for sauce finding.")
@@ -220,4 +221,4 @@ client.on('message', message => {
     }
 });
 
-client.login('ODU3MDgyOTI0OTU5OTI0MjI0.YNKarQ.5EtGhDU60XXzSB7jtRajruxZ3nk');
+client.login(process.env.TOKEN);

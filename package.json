@@ -12,6 +12,7 @@
   "dependencies": {
     "discord.js": "12.5.3",
     "discord.js-pagination": "1.0.3",
+    "dotenv": "^10.0.0",
     "is-image-url": "1.1.8",
     "luxon": "1.27.0",
     "nana-api": "1.1.4",
